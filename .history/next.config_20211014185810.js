@@ -43,7 +43,7 @@ module.exports = {
     ignoreDuringBuilds: true,
   },
   images: {
-    domains: ['unsplash.com', 'user-images.githubusercontent.com', 'og.railway.app'],
+    domains: ['user-images.githubusercontent.com', 'og.railway.app'],
   },
   webpack(cfg, { dev, isServer }) {
     // only compile build-rss in production server build
