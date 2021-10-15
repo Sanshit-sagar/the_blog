@@ -6,7 +6,7 @@ import { GoogleFonts } from 'next-google-fonts'
 
 export interface Props {
   seo?: SEOProps;
-  children?: React.ReactNode | null; 
+  children?: React.ReactNode;
 }
 
 const Page = (props: Props) => {
@@ -18,7 +18,7 @@ const Page = (props: Props) => {
         />
         <Nav />
         <div className="min-h-screen">
-          {props.children || null}
+          {props?.children }
         </div>
         <Footer />
     </>

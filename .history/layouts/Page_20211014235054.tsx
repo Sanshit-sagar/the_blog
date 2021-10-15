@@ -6,7 +6,7 @@ import { GoogleFonts } from 'next-google-fonts'
 
 export interface Props {
   seo?: SEOProps;
-  children?: React.ReactNode | null; 
+  children: React.ReactNode | null; 
 }
 
 const Page = (props: Props) => {
